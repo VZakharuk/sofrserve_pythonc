@@ -1,5 +1,5 @@
-# Vasyl Zakharuk
-# Python
+'Vasyl Zakharuk'
+'Python'
 
 name=input("What is your name?  ")
 print("Hello, ", name)
