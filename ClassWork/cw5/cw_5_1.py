@@ -1,4 +1,8 @@
-
+'''
+Vasyl Zakharuk
+Python Core 355
+Class work 5. min - max
+'''
 nums = []
 k = int(input("Pease enter the count of the elements of segence: "))
 for i in range(k):

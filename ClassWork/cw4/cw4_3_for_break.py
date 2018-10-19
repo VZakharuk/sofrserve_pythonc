@@ -1,9 +1,8 @@
 '''
 Vasyl Zakharuk
 Python Core 355
-Class work 4
+Class work 4. Check Odt with 'for ... break'
 '''
-# Check Odt with 'for ... break'
 list_number=[2,4,6,8,9,10]
 contain_odd=False
 for item in list_number:

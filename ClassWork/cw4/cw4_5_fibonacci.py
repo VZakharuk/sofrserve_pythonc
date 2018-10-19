@@ -1,10 +1,8 @@
 '''
 Vasyl Zakharuk
 Python Core 355
-Class work 4
+Class work 4. Fibonacci sequences using generators
 '''
-# Fibonacci sequences using generators
-
 max_f = int(input("Plese input last namber of Fibonacci sequences: "))
 def fibonacci(max_f):
     a, b = 0, 1

@@ -1,3 +1,8 @@
+'''
+Vasyl Zakharuk
+Python Core 355
+Class work 5. even / 2, odd / 3, nymber not / 2 and not / 3
+'''
 for x in  range(1,11):
     if x % 2 == 0:
         print(x, 'is even multiple of 2')
