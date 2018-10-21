@@ -1,8 +1,10 @@
-'''
+"""
 Vasyl Zakharuk
 Python Core 355
 Codewars Kata: Will there be enough space?
-''' 
+"""
+
+ 
 def enough(cap, on, wait):
     if cap >= on+wait:
         print("He can fit all", wait, "passengers.")

@@ -1,8 +1,9 @@
-'''
+""""
 Vasyl Zakharuk
 Python Core 355
 Class work 4. Change integer to float
-'''
+"""
+
 
 num = []
 k = int(input("Pease enter the count of the elements of sequence: "))

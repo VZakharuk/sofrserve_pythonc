@@ -1,9 +1,11 @@
-'''
+"""
 Vasyl Zakharuk
 Python Core 355
-''' 
-# hw_2 Task2_1: number of occurrences, upper, lower, replacement
-zen = '''
+ hw_2 Task2_1: number of occurrences, upper, lower, replacement
+ """
+ 
+ 
+zen = """
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
@@ -23,12 +25,16 @@ Although never is often better than 'right now'.
 If the implementation is hard to explain, it’s a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea — let’s do more of those!
-'''
+"""
+
+
 s = zen.split()
 print('better: ', zen.count('better'), 'входжень')
 print('never: ', zen.count('never'), 'входжень')
 print('is: ', zen.count('is'), 'входжень')
 
+
 print(zen.upper())
+
 
 print(zen.replace('i', '&'))

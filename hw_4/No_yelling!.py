@@ -1,8 +1,8 @@
-'''
+"""
 Vasyl Zakharuk
 Python Core 355
 Codewars Kata: No yelling!
-'''
+"""
 
 #st = input('Input something: ')
 def filter_words(st):

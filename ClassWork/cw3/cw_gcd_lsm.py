@@ -1,9 +1,10 @@
-'''
+"""
 Vasyl Zakharuk
 Python Core 355
-Class work 3
-'''
-# GCD and LCM
+Class work 3: GCD and LCM
+"""
+
+
 def gcd(a,b):
     return a if b == 0 else gcd(b, a % b)
 def lcm(a,b):

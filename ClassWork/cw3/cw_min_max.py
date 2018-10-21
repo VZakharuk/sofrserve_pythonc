@@ -1,9 +1,9 @@
-'''
+"""
 Vasyl Zakharuk
 Python Core 355
-Class work 3
-'''
-# maximum-minimum
+Class work 3: maximum-minimum
+"""
+
 
 namber_1=int(input("Введіть перше число number_1="))
 namber_2=int(input("Ведіть друге число namber_2="))

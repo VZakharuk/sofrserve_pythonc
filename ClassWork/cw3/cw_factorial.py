@@ -1,8 +1,10 @@
-'''
+"""
 Vasyl Zakharuk
 Python Core 355
-Class work 3'''
-# Factorial
+Class work 3 Factorial
+"""
+
+
 def fact(n):
     if n == 0:
         return 1
