@@ -1,4 +1,4 @@
-""""
+"""
 Vasyl Zakharuk
 Python Core 355
 Class work 4. Change integer to float
