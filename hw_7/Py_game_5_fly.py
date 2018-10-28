@@ -23,7 +23,7 @@ background_position = [0, 0]
 
 # Load and set up graphics.
 #background_image = pygame.image.load("saturn_family1.jpg").convert()
-player_image = pygame.image.load("*/Fly.png").convert() # Write the full to file here
+player_image = pygame.image.load("*/Fly.png").convert() # Write the full path to file here
 
 #Якщо в зображення не має прозорого слою, то щоб його встановити,
 #необхідно використати метод set_colorkey() класу Surface:
