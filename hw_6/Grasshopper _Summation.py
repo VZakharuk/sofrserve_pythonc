@@ -1,3 +1,8 @@
+"""
+Vasyl Zakharuk
+Python Core 355
+Codewars Kata: Grasshopper Summation
+"""
 num = int(input("Please input the number of numbers: "))
 def summation(num):
     sum_1 = 1
