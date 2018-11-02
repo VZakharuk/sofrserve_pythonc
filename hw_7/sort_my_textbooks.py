@@ -9,7 +9,7 @@ textbooks = input("Entry the list of books: ")
 def sorter(textbooks):
     return sorted(textbooks, key=lambda x: x[0].upper())
 
-print(sorter([textbooks])) # not workin properly
+print(sorter([textbooks])) # not working properly
 
 
 #def sorter(textbooks):
