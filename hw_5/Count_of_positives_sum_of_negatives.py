@@ -6,7 +6,7 @@ Codewars Kata: Count of positives / sum of negatives
 
 
 arr = []
-k = int(input("Pease enter the count of the elements of segence: "))
+k = int(input("Pease enter the count of the elements of sequence: "))
 for i in range(k):
     n = int(input("Please enter the element: "))
     arr.append(n)

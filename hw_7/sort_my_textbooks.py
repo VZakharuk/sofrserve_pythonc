@@ -4,18 +4,17 @@ Python Core 355
 Codewars Kata. Sort my textbooks
 """
 
-textbooks = input("Entry the list of books: ")
+#textbooks = input("Entry the list of books: ")
 
 def sorter(textbooks):
     return sorted(textbooks, key=lambda x: x[0].upper())
 
-print(sorter([textbooks])) # not working properly
+#print(sorter([textbooks])) # not working properly. Not sort!!!
 
 
 #def sorter(textbooks):
 #    textbooks.sort(key=str.upper) 
 #    return textbooks
+print(sorter(['Algebra', 'history', 'Geometry', 'english']))
 
-#print(sorter(['Algebra', 'history', 'Geometry', 'english']))
-
-#print(sorter(textbooks))) # parametr textbooks must to have [] like a list!!!
+#print(sorter([textbooks]))
