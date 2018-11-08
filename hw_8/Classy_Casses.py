@@ -1,4 +1,3 @@
-
 """
 Vasyl Zakharuk
 Python Core 355
@@ -11,3 +10,11 @@ class Person:
         self.info = name + 's age is ' + str(age)
 
 
+# names = input("Please input the name: ")
+# ages = input("Please input the age: ")
+names = ["John", "Ann", "Bill", "Jack", "Susanna"]
+ages = [25, 44, 17, 49, 33]
+for i in range(5):
+    name, age = names[i], ages[i]
+    person = Person(name, age)
+    print(person.info)
