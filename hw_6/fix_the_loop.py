@@ -5,7 +5,6 @@ Codewars Kata: fix the loop
 """
 
 
-#i = input("Input the animals: ")
 def list_animals(animals):
     list_a = ''
     for i in range(len(animals)):
@@ -13,4 +12,4 @@ def list_animals(animals):
     return list_a
     
 print(list_animals([ 'dog', 'monkey', 'elephant', 'cat', 'caw']))
-#print(list_animals([i]))
+
