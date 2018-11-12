@@ -9,9 +9,6 @@ class Person:
     def __init__(self, name, age):
         self.info = name + 's age is ' + str(age)
 
-
-# names = input("Please input the name: ")
-# ages = input("Please input the age: ")
 names = ["John", "Ann", "Bill", "Jack", "Susanna"]
 ages = [25, 44, 17, 49, 33]
 for i in range(5):
