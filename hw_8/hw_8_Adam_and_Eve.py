@@ -16,7 +16,7 @@ class Human:
 
 class Man(Human):
     def __init__(self, name):
-         super().__init__(name)
+        super().__init__(name)
 
 
 class Woman(Human):
@@ -24,10 +24,10 @@ class Woman(Human):
         super().__init__(name)
 
 
-men_humen = Human('Adam')
+men_human = Human('Adam')
 woman_human = Human('Eve')
-print(men_humen.name)
-print(woman_human.name)
+# print(men_human.name)
+# print(woman_human.name)
 
 
 #  This code is for 'codewars'
