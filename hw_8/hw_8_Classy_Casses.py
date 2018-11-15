@@ -15,3 +15,4 @@ for i in range(5):
     name, age = names[i], ages[i]
     person = Person(name, age)
     print(person.info)
+
