@@ -26,8 +26,8 @@ class Woman(Human):
 
 men_human = Human('Adam')
 woman_human = Human('Eve')
-# print(men_human.name)
-# print(woman_human.name)
+print(men_human.name)
+print(woman_human.name)
 
 
 #  This code is for 'codewars'
