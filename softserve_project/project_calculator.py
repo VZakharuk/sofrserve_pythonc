@@ -57,25 +57,25 @@ def calc(key):
 
     # mathematical constants and functions
     elif key == "sin":
-        calc_entry.insert(0, str(math.sin(int(calc_entry.get()))))
+        calc_entry.insert(END, "=" + str(math.sin(int(calc_entry.get()))))
 
     elif key == "cos":
-        calc_entry.insert(0, str(math.cos(int(calc_entry.get()))))
+        calc_entry.insert(END, "=" + str(math.cos(int(calc_entry.get()))))
 
     elif key == "xⁿ":
-        calc_entry.insert(0, "**")
+        calc_entry.insert(END, "**")
 
     elif key == "n!":
-        calc_entry.insert(0, str(math.factorial(int(calc_entry.get()))))
+        calc_entry.insert(END, "=" + str(math.factorial(int(calc_entry.get()))))
 
     elif key == "√":
-        calc_entry.insert(0, str(math.sqrt(int(calc_entry.get()))))
+        calc_entry.insert(END, "=" + str(math.sqrt(int(calc_entry.get()))))
 
     elif key == "π":
         calc_entry.insert(END, math.pi)
 
     elif key == "exp":
-        calc_entry.insert(END, str(math.exp(int(calc_entry.get()))))
+        calc_entry.insert(0, str(math.exp(int(calc_entry.get()))))
 
     elif key == "(":
         calc_entry.insert(END, "(")
@@ -86,7 +86,7 @@ def calc(key):
     elif key == "Exit":
         messagebox.showinfo("Bye", "Thank oyu for watching!")
         root.after(1, root.destroy)
-        sys.exit()
+        sys.exit
 
     else:
 
