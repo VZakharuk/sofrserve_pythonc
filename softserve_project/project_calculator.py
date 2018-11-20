@@ -21,7 +21,7 @@ root.title("Calculator")
 
 # logic of calculator
 def calc(key):
-    global memory
+    # global memory
     if key == "=":
 
         # exclude writing letters
@@ -56,10 +56,10 @@ def calc(key):
 
     # mathematical constants and functions
     elif key == "sin":
-        calc_entry.insert(0, str(math.sin(int(calc_entry.get()))))
+        calc_entry.insert(0, str(math.sin(float(calc_entry.get()))))
 
     elif key == "cos":
-        calc_entry.insert(0, str(math.cos(int(calc_entry.get()))))
+        calc_entry.insert(0, str(math.cos(float(calc_entry.get()))))
 
     elif key == "xⁿ":
         calc_entry.insert(END, "**")
@@ -73,13 +73,13 @@ def calc(key):
             calc_entry.insert(END, "=" + "Error!")
             messagebox.showerror("Error!", "Number must be integer")
     elif key == "√":
-        calc_entry.insert(0, str(math.sqrt(int(calc_entry.get()))))
+        calc_entry.insert(END, "=" + str(math.sqrt(float(calc_entry.get()))))
 
     elif key == "π":
         calc_entry.insert(END, math.pi)
 
     elif key == "exp":
-        calc_entry.insert(0, str(math.exp(int(calc_entry.get()))))
+        calc_entry.insert(0, str(math.exp(float(calc_entry.get()))))
 
     elif key == "(":
         calc_entry.insert(END, "(")
