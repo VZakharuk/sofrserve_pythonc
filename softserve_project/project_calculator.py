@@ -63,7 +63,7 @@ def calc(key):
 
     elif key == "xⁿ":
         calc_entry.insert(END, "**")
-        
+
     elif key == "n!":
         if "n!" in calc_entry.get() is not int():
             calc_entry.delete(0)

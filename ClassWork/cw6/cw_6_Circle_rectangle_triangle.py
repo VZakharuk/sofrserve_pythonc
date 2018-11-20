@@ -32,5 +32,5 @@ def triangle():
 
 def circle():
     r = float(input("Please input the radius of the circle r="))
-    print("Circle_area = {}".format(2*3.14*r**2))
+    print("Circle_area = {}".format(3.14*r**2))
 figure()
